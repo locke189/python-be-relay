@@ -28,7 +28,7 @@ def show_data():
     
     if request.method == 'POST':
         forwarded_data = request.form
-        #print(forwarded_data)
+        print(forwarded_data)
         return 'Forwarded-POST'
 
     
